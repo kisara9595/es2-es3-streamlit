@@ -1,0 +1,143 @@
+{
+  "target": {
+    "name": "Success",
+    "definition": "1 if Installs >= 10,000, otherwise 0"
+  },
+  "features": {
+    "numeric": [
+      "Size_MB",
+      "Size_Varies",
+      "Price",
+      "Android_Min_Version",
+      "Android_Varies"
+    ],
+    "categorical": [
+      "Category",
+      "Type",
+      "Content Rating",
+      "Genre_Primary",
+      "Genre_Secondary",
+      "Ad Supported"
+    ]
+  },
+  "all_research_features": [
+    "Category",
+    "Size_MB",
+    "Size_Varies",
+    "Type",
+    "Price",
+    "Content Rating",
+    "Genre_Primary",
+    "Genre_Secondary",
+    "Android_Min_Version",
+    "Android_Varies",
+    "Ad Supported"
+  ],
+  "transformed_feature_count": 97,
+  "category_values": {
+    "Category": [
+      "ARTIFICIAL_INTELLIGENCE",
+      "ART_AND_DESIGN",
+      "AUTO_AND_VEHICLES",
+      "BEAUTY",
+      "BOOKS_AND_REFERENCE",
+      "BUSINESS",
+      "COMICS",
+      "COMMUNICATION",
+      "DATING",
+      "EDUCATION",
+      "ENTERTAINMENT",
+      "EVENTS",
+      "FAMILY",
+      "FINANCE",
+      "FOOD_AND_DRINK",
+      "GAME",
+      "HEALTH_AND_FITNESS",
+      "HOUSE_AND_HOME",
+      "LIBRARIES_AND_DEMO",
+      "LIFESTYLE",
+      "MAPS_AND_NAVIGATION",
+      "MEDICAL",
+      "NEWS_AND_MAGAZINES",
+      "PARENTING",
+      "PERSONALIZATION",
+      "PHOTOGRAPHY",
+      "PRODUCTIVITY",
+      "SHOPPING",
+      "SOCIAL",
+      "SPORTS",
+      "TOOLS",
+      "TRAVEL_AND_LOCAL",
+      "VIDEO_PLAYERS",
+      "VIRTUAL_REALITY",
+      "WEATHER",
+      "WEB3_AND_CRYPTO"
+    ],
+    "Type": [
+      "Free",
+      "Paid"
+    ],
+    "Content Rating": [
+      "Adults only 18+",
+      "Everyone",
+      "Everyone 10+",
+      "Mature 17+",
+      "Teen",
+      "Unrated"
+    ],
+    "Genre_Primary": [
+      "Art And Design",
+      "Artificial Intelligence",
+      "Auto And Vehicles",
+      "Beauty",
+      "Books And Reference",
+      "Business",
+      "Comics",
+      "Communication",
+      "Dating",
+      "Education",
+      "Entertainment",
+      "Events",
+      "Family",
+      "Finance",
+      "Food And Drink",
+      "Game",
+      "Health And Fitness",
+      "House And Home",
+      "Libraries And Demo",
+      "Lifestyle",
+      "Maps And Navigation",
+      "Medical",
+      "News And Magazines",
+      "Parenting",
+      "Personalization",
+      "Photography",
+      "Productivity",
+      "Shopping",
+      "Social",
+      "Sports",
+      "Tools",
+      "Travel And Local",
+      "Video Players",
+      "Virtual Reality",
+      "Weather",
+      "Web3 And Crypto"
+    ],
+    "Genre_Secondary": [
+      "Action",
+      "Board",
+      "Card",
+      "Casual",
+      "Creativity",
+      "Puzzle",
+      "RPG",
+      "Shooter",
+      "Simulation",
+      "Strategy"
+    ],
+    "Ad Supported": [
+      "No",
+      "Yes"
+    ]
+  }
+}
